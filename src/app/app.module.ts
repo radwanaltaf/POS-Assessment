@@ -8,6 +8,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { CitiesTableComponent } from './cities-table/cities-table.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { CityInfoComponent } from './cities-table/components/city-info/city-info.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     LoaderComponent,
     CitiesTableComponent,
     PageNotFoundComponent,
+    CityInfoComponent,
   ],
   imports: [
     BrowserModule,

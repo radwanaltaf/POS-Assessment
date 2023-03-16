@@ -8,3 +8,6 @@
     cursor: pointer;
 }
   
+.hover-effect:hover {
+    opacity: 0.5;
+}

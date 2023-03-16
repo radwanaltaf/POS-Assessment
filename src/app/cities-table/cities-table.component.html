@@ -1,7 +1,7 @@
 <div class="p-5">
   <p class="h1 mb-4">Popular Destinations</p>
   <div class="css-column mb-5">
-    <p (click)="onCityClickHandler(item)" class="cursor-pointer" *ngFor="let item of citiesData">
+    <p (click)="onCityClickHandler(item)" class="cursor-pointer hover-effect" *ngFor="let item of citiesData">
       {{ item.name }} ({{ item.count }})
     </p>
   </div>
